@@ -1,5 +1,5 @@
 //desestruturando o resultado para pegar o valor
-const tabela = ({ resultado }) => {
+const Tabela = ({ resultado }) => {
   const valor = parseFloat(resultado);
 console.log(valor);
   if (valor < 18.5) {
@@ -50,7 +50,7 @@ const Resultado = ({resultado}) => {
             </thead>
           <tbody className="tabelaBody">
             <tr>
-                <tabela resultado={resultado} />  
+                <Tabela resultado={resultado} />  
             </tr>
           </tbody>  
         </table>
